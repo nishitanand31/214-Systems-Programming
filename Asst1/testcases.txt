@@ -1,0 +1,55 @@
+Nishit Anand and Yash Phansalkar. 
+CS214: Systems Programming
+Date: 10/14/2016
+
+Test Cases
+Assignment 1: A better malloc() and free()
+
+//////////////////////// Test Case A ////////////////////////
+Test A: Malloced 1 bit 3000 times.
+Freed 3000 1 byte pointers.
+
+
+
+
+//////////////////////// Test Case B ////////////////////////
+Test B: Malloced 1 byte.
+Freed pointer 3000 times.
+
+
+
+
+//////////////////////// Test Case C ////////////////////////
+Test C: Malloced 1 byte.
+
+
+
+
+//////////////////////// Test Case D ////////////////////////
+Test D: Malloced 1500 bit.
+Size of the pointer is %p (what is the actual size). 
+
+
+
+
+
+//////////////////////// Test Case E ////////////////////////
+In this test case we malloced 200bit of integer value, which should be size of int*200 = 4*200 = 800bits. 
+
+Test E: Malloced size of int*200 bits.
+Freed pointer. 
+
+
+
+
+//////////////////////// Test Case F ////////////////////////
+In this test case we malloced 2bits * 600bits, which should be size of 200*600 = 200bits. 
+
+Test F: Malloced size of 2bits*600 bits.
+Freed pointer. 
+
+Freed pointer of test case C.
+
+Freed pointer of test case D.
+
+
